@@ -1,10 +1,13 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #F3F1F1;
+  color: #131313;
+  font-size: 16px;  /* added font-size to body */
+  font-family: Tahoma, sans-serif;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  /* background-color: rgba(0,0,0,.5); */
+  background-color: rgba(55, 47, 47, .9);
   float: left;
   position: fixed;
   width: 100%;
@@ -40,6 +43,7 @@ ul {
 li {
   float: right;
   padding: 30px;
+  font-size: 1.2em;
 }
 
 article {
@@ -49,4 +53,61 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+/* no underline for links */
+a {
+  text-decoration: none;
+}
+/* unvisited link color */
+a:link {
+  color: #FFFFFF;
+}
+
+/* visited link color */
+a:visited {
+  color: #FFB956;
+}
+
+/* hover link color */
+a:hover {
+  color: #CDCCCA;
+}
+
+/* selected link color */
+a:active {
+  color: #50F4FF;
+}
+
+/* figure caption styling */
+figcaption {
+  font-size: 80%; /* font size under caption is 80% of 16px */
+  font-style: italic;
+  line-height: 2;
+}
+/* h1 - title - styling */
+h1 {
+  font-size: 2.2em;
+  font-family: Georgia, serif;
+  line-height: 2.2;
+}
+
+/* h3 - subtitle - styling */
+h3 {
+  font-size: 1.3em;
+  line-height: 1.7;
+}
+
+/* author name styling */
+.author {
+  font-size: 1em;
+  line-height: 4;
+  font-weight: bold;
+}
+
+/* paragraph text styling */
+.story-text {
+  font-size: 1.1em;
+  font-family: Georgia, serif;
+  line-height: 2.1;
 }
